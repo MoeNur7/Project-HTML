@@ -7,7 +7,19 @@ $(document).ready(function(){
     {
         $("div.JavaScripts").hide();
         $("div.Python").hide();
+        $("div.Ruby").show();
+    }
+    else if (selectedCoding === "Javascripts")
+    {
         $("div.Ruby").hide();
+        $("div.Python").hide();
+        $("div.JavaScripts").show();
+    }
+    else{
+        
+        $("div.Ruby").hide();
+        $("div.JavaScripts").hide();
+        $("div.Python").show();
     }
   });
 });
