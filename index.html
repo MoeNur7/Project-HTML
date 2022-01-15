@@ -5,26 +5,46 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Programming Language Suggester</title>
+  <title>Programming Language</title>
 </head>
 <body>
     <div class="container">
       <h1>Programming Language Suggester</h1>
-    <div >
-        <p>What Language You Should Learn First For Coding?</p>
-        <a href="Ruby" class="coding">Ruby</a><br>
-        <a href="JavaScript" class="coding">JavaScript</a><br>
-        <a href="Python" class="coding">Python</a>
-    </div>
+    <div>
+        <p>You don't know what languege to pick for programing? It's Okay, complete this survey to figure out! </p>
+        <form id="survey">
+            <label>What's your favorite color?</label>
+            <select q1="colors" id="color-select">
+              <option value="1">Red</option>
+              <option value="2">Blue</option> 
+              <option value="3">Purple</option>   
+            </select>
+            
 
-    <div class="Ruby">
-        <p>Beginner Friendliness. Ruby was originally designed with the goal of making programming fun</p>
-    </div>
-    <div class="JavaScript">
-        <p>It's easy to get started with and It's a highly sought-after professional skill.</p>
-    </div>
-    <div class="Python">
-        <p>Career Opportunities and Salary. Python language provides several job opportunities and promises high growth with huge salary prospects.</p>
+            <label>Do you like to challenge yourself?</label> 
+            <select q2="challenge" id="challenge-select">
+                <option value="1">Yes</option>
+                <option value="2">No</option>
+
+            <label>Do you prefer front end or back end?</label>
+            <select q3="prefer" id="prefer-select">
+                <option value="1">Front End</option>
+                <option value="2">Back End</option>
+
+            <label>What's your favorite fruit?</label>
+            <select q4="fruit" id="fruit-select">
+                <option value="1">Mango</option>
+                <option value="2">Banana</option>
+                <option value="3">Apple</option>
+
+            <label>Do you like movies or Tv-Shows?</label>
+            <select q5="like" id="like-select">
+                <option value="1">Movies</option>
+                <option value="2">Tv-Shows</option>
+
+
+        
+        </form>
     </div>
     
     
