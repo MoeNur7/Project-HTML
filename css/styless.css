@@ -1,0 +1,25 @@
+.Project {
+    background-color: cadetblue;
+    border-radius: inherit;
+}
+
+h1 {
+    margin: 0px;
+}
+
+img {
+    height: 400px;
+    width: 300px;
+    float: right;
+    margin-top: 50px;
+    padding-left: 20px;
+    border: 2px solid lemonchiffon;
+    padding: 0px;
+}
+
+#Nur {
+    color: crimson;
+    font-size: 50px;
+    font-style:italic
+
+}
